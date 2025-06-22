@@ -1,5 +1,8 @@
 #include <stdio.h>
-int main (){
-    printf("hello world! penis");
+#include "util.h"
+int main(){
+    char input[100];
+    scanf("%s",input);
+    print(input);
     return 0;
 }
